@@ -1,0 +1,56 @@
+/*reset default settings*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*global*/
+body{
+    height: 100vh;
+    background-color: #e4e591;
+}
+/*header*/
+header{
+    background-color: #a8dce6;
+    height: 100px;
+    position: relative;
+}
+.title-container{
+    background-color: #25d46e;
+    height: 60px;
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: calc((100% - 800px)/2);
+}
+.title-container h2{
+    background-color: #e6ada8;
+    display: inline;
+    position: absolute;
+    line-height: 140%;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+}
+/*main button-section*/
+#buttons-section{
+    text-align: center;
+    background-color: #9dabce;
+}
+.buttons-container{
+    padding: 25px 0;
+}
+.buttons-container button{
+    width: 115px;
+    margin: 0 20px;
+}
+/*main sketch-section*/
+.sketch-container{
+    height: 450px;
+    width: 800px;
+    outline: 3px solid black;
+    margin: 25px auto 0 auto;
+}

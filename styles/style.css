@@ -49,7 +49,21 @@ header{
 }
 .buttons-container button{
     width: 115px;
+    height: 20px;
     margin: 0 20px;
+}
+.buttons-container input[type="color"]{
+    width: 115px;
+    height: 20px;
+    position: absolute;
+    right: 12%;
+    opacity: 0;
+    
+}
+#choose-color-button-container{
+    display: inline-block;
+    position: relative;
+    
 }
 /*main sketch-section*/
 .sketch-container{
@@ -61,6 +75,6 @@ header{
     grid-template-columns: repeat(var(--columns-size),auto);
 }
 .grid-cell{
-    outline: 1px solid gray;
+    /*outline: 1px solid gray;*/
     background-color: white;
 }

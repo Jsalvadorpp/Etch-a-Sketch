@@ -51,14 +51,33 @@ header{
     width: 115px;
     height: 20px;
     margin: 0 20px;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+.buttons-container button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.buttons-container button:active{
+    transform: translateY(2px);
+
 }
 .buttons-container input[type="color"]{
-    width: 115px;
-    height: 20px;
+    width: 117px;
+    height: 22px;
     position: absolute;
     right: 12%;
     opacity: 0;
-    
+}
+#choose-color-button-container{
+    transition: transform 0.3s;
+}
+#choose-color-button-container:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#choose-color-button-container:active{
+    transform: translateY(2px);
 }
 #choose-color-button-container{
     display: inline-block;
